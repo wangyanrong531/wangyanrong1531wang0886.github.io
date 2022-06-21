@@ -10,5 +10,5 @@ header,footer{
     color: blue;
 }
 #my-image div{
-    box-shadow:2px 1px black
+    box-shadow:0px 0px 2px 1px black
 }
