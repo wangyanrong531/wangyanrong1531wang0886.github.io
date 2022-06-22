@@ -1,14 +1,17 @@
 body{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 18px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
 }
+
 header,footer{
     background-color: aqua;
 }
 
 .site-title{
-    color: blue;
+    color:blue;
 }
+
 #my-image div{
-    box-shadow:0px 0px 2px 1px black
+    box-shadow: 0px 0px 2px 1px; color: black;
 }
+
