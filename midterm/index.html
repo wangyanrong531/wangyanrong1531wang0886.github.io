@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- creats a wrapper to limit width with and center content-->
-    <div class="wrapper"></div>
+    <div class="wrapper">
 
     <div class="header">
         <h1>Lone Starfish</h1>
@@ -48,29 +48,31 @@
     </article>
 
     <form>
+        <div class="form-item">
         <label for="fname">Your Name:</label><br>
+
         <input type="text" id="fname" name="fname"><br>
+    
         <label for="email">Your Email:</label><br>
-        <input type="text" id="email" name="@.com">
-        <label for="text">Your Message:</label><br>
-        <input type="text" id="message" name="message"><br>
+        <input type="email" id="email"><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message"></textarea>
+
         <p>Would you like to visit the starfish?</p>
-        <input type="checkbox" id="option1" name="option1" value="Yes">
+        <input type="radio" id="option1" name="optiona" value="Yes">
         <label for="option1">Yes,I will visit the Starfish</label><br>
-        <input type="checkbox" id="option2" name="option2" value="No">
+        <input type="radio" id="option2" name="optionb" value="No">
         <label for ="option2">No, I won't visit the Starfish</label><br>
-        <input type="checkbox" id="option3" name="option3"value="Maybe">
+        <input type="radio" id="option3" name="optionc"value="Maybe">
         <label for ="option3">Maybe, not sure</label><br>
+        <input type="submit" value="Submit">
+        </div>
     </form>
-
-    <form action="send">
-        <input type="send" value="Submit">
-    </form>
-
-
 </main>
 <footer>
     <p>Coperight ©2022 Yanrong Wang</p>
 </footer>
+</div>
 </body>
 </html>
