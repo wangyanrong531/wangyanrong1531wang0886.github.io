@@ -52,7 +52,7 @@ article img {
     width: 100%;
 }
 
-body{
+body nav{
     background-color: rgb(34,34, 34);
 }
 .wrapper{
@@ -145,7 +145,6 @@ form input {
     background: rgba(0,0,0,0.5);
     padding: 10px;
     padding-bottom: 100px; 
-    padding-bottom: 100px;
 }
 
 .container a{
@@ -179,7 +178,6 @@ form input {
 .about-content p{
   font-size: larger;
   padding: 20px;
-  width: 100%;
 }
 
 h1{
@@ -187,6 +185,55 @@ h1{
     font-weight: bold;
     padding:20px;
 }
+
+.services{
+    background-color: white;
+}
+
+.digital{
+    background-color: #ffe6ac;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.digital p{
+    padding:20px;
+}
+
+
+.digital a{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.marketing{
+    margin-top: 15px;
+    background-color: #ffe6ac;
+}
+
+.marketing p{
+    padding: 15px;
+}
+
+.marketing a{
+    background-color:black;
+    color: white;
+    font-size: large;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+
 
 
 
