@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5ee9bd8a4c.js" crossorigin="anonymous"></script>
     <title>Yanrong final project</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+  <header>
         <!-- page1 -->
-        <img src="images/logo.png" alt="logo" />
+        <div class="wrapper">
+            <img src="images/logo.png" alt="logo"/>
+        </div>
+       
        <nav>
-           <ol>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About Us</a></li>
+           <ul>
+               <li><a href="#" class="active">Home</a></li>
+               <li><a href="#about-us">About Us</a></li>
                <li><a href="#">Services</a></li>
                <li><a href="#">Team</a></li>
                <li><a href="#">Contact</a></li>
-           </ol>
+           </ul>
          <form>
                 <input id="search" type="text" name="search" placeholder="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -28,18 +32,29 @@
     <main>
        <article>
         <!-- page2 -->
-        <img src="images/main-banner.jpg" alt="main-banner" />
-         <h1>Welcome to Three Star Media</h1>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime sint, deleniti quidem, delectus aspernatur fugit ducimus modi omnis aliquam rem dolorem amet et consequuntur eveniet unde reprehenderit autem voluptas?</p>
-         <a href="#">Connect with us</a>
-         <i class="fa-solid fa-circle-right"></i><br>
+        
+        <div class="container">
+            <img src="images/main-banner.jpg" alt="main-banner" />
+            <h1 class="main-title">Welcome to Three Star Media</h1>
+            <p class="welcome">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime sint, deleniti quidem, delectus aspernatur fugit ducimus modi omnis aliquam rem dolorem amet et consequuntur eveniet unde reprehenderit autem voluptas?</p>
+            <a href="#">Connect with us</a>
+            <i class="fa-solid fa-circle-right"></i><br>
+        </div>
+         
 
         <!-- page3 -->
-        <img src="images/about-us.jpg" alt="about us">
-         <h1 >About Us</h1>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora mollitia rem dolore officiis assumenda eligendi, saepe atque magnam, amet voluptatibus rerum, voluptas necessitatibus. Molestiae magni eaque ratione eveniet iusto odit.</p>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam beatae eum voluptatum, saepe numquam minus eos tempore ullam neque voluptates quas. Enim fuga harum vel iste perferendis quo voluptate recusandae?</p>
-
+        <section class="about-section">
+            <div class="about-image">
+                <img src="images/about-us.jpg" alt="about us">
+            </div>
+            
+            <div class="about-content">
+                <h1 id="about-us">About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora mollitia rem dolore officiis assumenda eligendi, saepe atque magnam, amet voluptatibus rerum, voluptas necessitatibus. Molestiae magni eaque ratione eveniet iusto odit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam beatae eum voluptatum, saepe numquam minus eos tempore ullam neque voluptates quas. Enim fuga harum vel iste perferendis quo voluptate recusandae?</p>
+            </div>
+        </section>
+        
         
         <!-- page4 -->
         <h1>Our Services</h1>
