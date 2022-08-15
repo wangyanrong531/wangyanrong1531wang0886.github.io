@@ -190,6 +190,20 @@ h1{
     background-color: white;
 }
 
+p{
+    font-size: larger;
+    padding: 15px;
+}
+
+a{
+    background-color:black;
+    color: white;
+    font-size: large;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
 .digital{
     background-color: #ffe6ac;
 }
@@ -201,39 +215,23 @@ h2{
     padding: 20px;
 }
 
-.digital p{
-    padding:20px;
-}
-
-
-.digital a{
-    background-color: black;
-    color: white;
-    font-size: large;
-    padding: 25px;
-    padding-bottom: 10px;
-    text-decoration: none;
-}
-
 .marketing{
     margin-top: 15px;
     background-color: #ffe6ac;
 }
 
-.marketing p{
-    padding: 15px;
+
+.video{
+    margin-top: 15px;
+    background-color: #ffe6ac;
 }
 
-.marketing a{
-    background-color:black;
-    color: white;
-    font-size: large;
-    padding: 25px;
-    padding-bottom: 10px;
-    text-decoration: none;
+.web{
+    margin-top: 15px;
+    background-color: #ffe6ac;
 }
 
-
-
-
-
+.print{
+    margin-top: 15px;
+    background-color: #ffe6ac;
+}
