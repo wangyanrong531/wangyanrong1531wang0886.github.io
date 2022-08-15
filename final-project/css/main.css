@@ -120,14 +120,16 @@ form input {
 
 /* container holding the image and the text */
 .container{
-    position:relative;
+    /* position:relative; */
     margin:0 auto;
-    
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .container .main-title{
-    position: absolute;
-    bottom: 220px;
+    /* position: absolute;
+    bottom: 220px; */
     font-size: 60px;
     color: white;
     background: rgba(0,0,0,0.5);
@@ -136,24 +138,25 @@ form input {
 }
 
 .container .welcome{
-    position:absolute;
+    /* position:absolute; */
     color: white;
-    bottom:152px;
+    /* bottom:152px; */
     background: rgba(0,0,0,0.5);
     padding: 10px;
     margin: 5px;
 }
 
 .container a{
-    position: absolute;
+    /* position: absolute;
     bottom:60px;
-    left:30px;
+    left:30px; */
     font-size: large;
     font-weight:bold;
     background-color: #c78c06;
     color: #222;
     padding:30px;
     text-decoration: none;
+   
 }
 .fa-circle-right{
     position:relative;
