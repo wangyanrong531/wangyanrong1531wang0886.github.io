@@ -235,3 +235,25 @@ h2{
     margin-top: 15px;
     background-color: #ffe6ac;
 }
+
+.vision{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/vision.jpg);
+    margin-top: 15px;
+}
+
+.vision h1{
+    color: white;
+}
+
+.vision p{
+    color: white;
+}
+
+.vision a{
+    background-color: rgb(18,30,48);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c78c06;
+}
