@@ -52,6 +52,11 @@ article img {
     width: 100%;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 body nav{
     background-color:#222;
 }
@@ -76,8 +81,6 @@ nav li{
 li a{
     display: block;
     padding: 20px;
-
-
     color:rgb(199, 139, 7);
     text-decoration: none;
     font-size: 20px;
@@ -321,6 +324,15 @@ footer a{
         font-family: 'Montserrat', sans-serif; 
     }
 
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrapper {
+        width: 100px;
+    }
+
     nav{
         background-color: #222;
 
@@ -335,12 +347,13 @@ footer a{
     form{
         list-style: none;
         display: inline-block;
+        margin: 0 0;
 
     }
-
     nav{
         display: flex;
         flex-direction: row;
+        text-align:left;
     }
 
     .about-section{
@@ -357,16 +370,16 @@ footer a{
 
     .services-grid{
         display: grid;
-        grid-template-columns: repeat(7,1fr);
+        grid-template-columns: repeat(6,1fr);
         border-radius: 5px;
         column-gap: 10px;
         margin: 30px;
         /* padding: 0px 0px 0px 70px; */
     }
 
-    a{
-    
-
+    .services-grid a{
+        display: block;
+        height: 30px;
     }
 
     .digital{
@@ -415,7 +428,6 @@ footer a{
         border-radius: 5px;
         column-gap: 10px;
         margin: 20px;
-
     }
 
     .team-1{
@@ -471,6 +483,13 @@ footer a{
         grid-area: a4;
     }
 
+    table{
+        width:100%;
+    }
+
+    footer{
+        text-align: center;
+    }
 
 }
 
