@@ -255,11 +255,11 @@ h2{
     border-color: #c78c06;
 }
 
-.team{
+.team-grid{
     background-color: #ffe6ac;
 }
 
-.team h4{
+.team-grid h4{
     padding-left: 20px;
     font-weight: bold;
     font-size: large;
@@ -360,9 +360,8 @@ footer a{
         grid-template-columns: repeat(7,1fr);
         border-radius: 5px;
         column-gap: 10px;
-        padding: 0px 0px 0px 70px;
-        
-    
+        margin: 30px;
+        /* padding: 0px 0px 0px 70px; */
     }
 
     a{
@@ -409,7 +408,72 @@ footer a{
     .vision{
         padding: 20px;
     }
+
+    .team-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        border-radius: 5px;
+        column-gap: 10px;
+        margin: 20px;
+
+    }
+
+    .team-1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end:2;
+    }
+    .John{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:2;
+    }
+    
+    .team-2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+    
+    .Rob{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+
+    aside{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        border-radius: 5px;
+        column-gap: 10px;
+        margin: 20px;
+        grid-template-areas:
+        "a1 a1"
+        "a2 a3"
+        "a4 a4"
+    }
+
+    aside h1{
+        grid-area: a1;
+    }
+    .message-grid{
+        grid-area: a2;
+    }
+
+    .map{
+        grid-area: a3;
+    }
+    .hours-grid{
+        grid-area: a4;
+    }
+
+
 }
+
 
 
 

@@ -118,42 +118,49 @@
         </div>
        
         <!-- page 10 -->
-            <h1>Our Team</h1>
-        <div class="team">
-            <!-- <h1>Our Team</h1> -->
-            <img src="images/john.jpg" alt="team member1">
-            <h2>John Doe</h2>
-            <h4>CEO and Co-owner</h4><hr>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam fugiat, reiciendis voluptas illum amet soluta! Deleniti, nam corrupti beatae optio vero, modi earum reiciendis doloribus alias labore quae explicabo.</p><br>
-
-        <!-- page 11 -->
-            <img src="images/bob.jpg" alt="team member2">
-            <h2>Rob Rite</h2>
-            <h4>CFO and Co-owner</h4><hr>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit molestiae voluptatem totam, temporibus blanditiis dolores. Deserunt tempore voluptatum non asperiores possimus nisi quos, voluptate dicta laudantium, consectetur doloremque quod! Dolores.</p>
+           <h1>Our Team</h1>
+        <article class="team-grid">
+            <div class="team-1">
+               <img src="images/john.jpg" alt="team member1"></div>
+            <div class="John">
+               <h2>John Doe</h2>
+               <h4>CEO and Co-owner</h4><hr>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam fugiat, reiciendis voluptas illum amet soluta! Deleniti, nam corrupti beatae optio vero, modi earum reiciendis doloribus alias labore quae explicabo.</p><br>
+            </div>
+   
+            <div class="team-2">
+               <img src="images/bob.jpg" alt="team member2">
+            </div>
+            <div class="Bob">
+               <h2>Rob Rite</h2>
+               <h4>CFO and Co-owner</h4><hr>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit molestiae voluptatem totam, temporibus blanditiis dolores. Deserunt tempore voluptatum non asperiores possimus nisi quos, voluptate dicta laudantium, consectetur doloremque quod! Dolores.</p>
+   
             </div>
        </article>
-
+            
+       
        <aside>
-           <!-- page 12 -->
            <h1>Contact Us</h1>
-           <h2>Send us a message</h2>
-
-         <form>
-            <label for="fname">Full Name</label><br>
-            <input type="text" id="fname" name="fname"><br>
+           <!-- page 12 -->
+           <div class="message-grid">
+             <h2>Send us a message</h2>
+             <form>
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            
+                <label for="email">Email</label><br>
+                <input type="email" id="email"><br>
         
-            <label for="email">Email</label><br>
-            <input type="email" id="email"><br>
-    
-            <label for="message">Message</label><br>
-            <textarea id="message"></textarea><br>
-            <div class="send">
-                <input type="submit" value="Send"><br>
+                <label for="message">Message</label><br>
+                <textarea id="message"></textarea><br>
+                <div class="send">
+                    <input type="submit" value="Send"><br>
+                </div>
+              </form>
             </div>
-         </form>
 
-         <table>
+         <table class="hours-grid">
              <caption>Hours of operation</caption>
              <thead>
                  <tr>
@@ -172,13 +179,13 @@
                  </tr>
              </tbody>
          </table>
-       </aside>
 
-       <section>
+         <section class="map">
            <!-- page 13 -->
            <h1>Location</h1>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435399.4186710948!2d-77.51340837516865!3d45.35861209417474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1659450891915!5m2!1szh-CN!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       </section>
+         </section>
+        </aside>
     </main>
 
     <footer>
