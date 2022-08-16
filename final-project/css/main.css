@@ -273,3 +273,9 @@ hr{
     border-top:2px solid #c78c06;
 }
 
+ 
+input[type=submit]{
+    background-color: #222;
+    color:#c78c06;
+    
+}
