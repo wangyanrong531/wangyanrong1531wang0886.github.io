@@ -279,3 +279,41 @@ input[type=submit]{
     color:#c78c06;
     width: 15%;
 }
+
+table{
+    width:100%;
+}
+
+table, th,td{
+    border:1px solid;
+    padding:10px;
+}
+
+caption{
+    font-size: 40px;
+    font-weight: bold;
+    padding:10px;
+    margin-right: 30%;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+iframe{
+    display: inline;
+    width: 100%;
+}
+
+footer{
+    background-color:#222;
+    color: #c78c06;
+    font-size: small;
+}
+
+footer a{
+    background-color: #222;
+    color:#c78c06;
+    text-decoration: underline;
+    font-size: small;
+}
